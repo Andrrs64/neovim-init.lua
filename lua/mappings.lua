@@ -29,3 +29,8 @@ vim.keymap.set('n', '<C-x>', '?[A-Z]<return>')
 
 -- Primeagen's greates remap ever
 vim.keymap.set('x', '<leader>p', '"_dP')
+
+-- asbjornHaland's yank to registry maps
+vim.keymap.set('n', '<leader>y', '"+y')
+vim.keymap.set('v', '<leader>y', '"+y')
+vim.keymap.set('n', '<leader>Y', '"+Y')
