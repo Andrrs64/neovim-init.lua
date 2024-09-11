@@ -24,12 +24,6 @@ lspconfig.clangd.setup {
     capabilities = nvlsp.capabilities,
 }
 
-lspconfig.cmakelang.setup {
-    on_attach = on_attach,
-    on_init = nvlsp.on_init,
-    capabilities = nvlsp.capabilities,
-}
-
 lspconfig.eslint.setup {
     on_attach = on_attach,
     on_init = nvlsp.on_init,
